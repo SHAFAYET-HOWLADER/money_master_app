@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,11 +9,55 @@
     <!-- custom css link -->
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    
+    <!----------|---main part start--|------------>
+    <main>
+        <section id="view_port">
+            <div class="container">
+                <h1 style="text-align: center; padding: 15px 0px;">Treasure Saving</h1>
+                <div class="teasure_main">
+
+                    <div class="treasure_left">
+                        <img src="images/moneyPic.jpg" alt="picture">
+                    </div>
+
+                    <div class="treasure_right">
+                        <h3>Income</h3>
+                        <label>Salary :</label>
+                        <input type="number">
+                        <h3>Expenses </h3>
+                        <label>Food :</label>
+                        <input type="number">
+                        <br>
+                        <label>Rent :</label>
+                        <input type="number">
+                        <br>
+                        <label>Clothes :</label>
+                        <input type="number">
+                        <br>
+                        <button type="button">Calculate</button>
+                        <h3>Total Expenses : <span></span></h3>
+                        <h3>Balance : <span></span></h3>
+
+                        <label>Save : </label>
+                        <input type="number">
+                        <span>%</span>
+                        <button type="button">Save</button>
+                        <h3>Saving Amount : <span></span></h3>
+                        <h3>Remaining Amount : <span></span></h3>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <!----------|---main part end--|------------>
 
 
     <!----------|--js link--|----------- -->
     <script src="js/app.js"></script>
 </body>
+
 </html>

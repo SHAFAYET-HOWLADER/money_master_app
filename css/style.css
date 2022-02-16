@@ -1,26 +1,64 @@
-
 /* ----------|--google fonts  start--|-----------*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Noto+Serif&display=swap');
 /* ----------|--google fonts  end--|-----------*/
 
 /* ----------|--common css start--|-----------*/
-*{
+* {
     margin: 0px;
     padding: 0px;
     outline: 0px;
 }
-h1,h2,h3,h4,h5,h6{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0px;
     padding: 0px;
 }
-body{
+
+body {
     overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Serif', serif;
 }
-.container{
+
+.container {
     max-width: 1200px;
     margin: 0px auto;
+    background-color: #d1d1d1;
 }
-input[type = number]{
+
+input[type=number] {
     appearance: textfield;
 }
+
 /* ----------|--common css end--|-----------*/
+
+/* ----------|--main part css start--|-----------*/
+#view_port {
+    padding: 20px 0px;
+}
+
+.teasure_main {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 15px 0px;
+    border-radius: 5px;
+
+}
+
+.treasure_left img {
+    border-radius: 5px;
+}
+.treasure_right h3{
+    text-align: center;
+}
+.treasure_right input{
+    margin: 15px 0px;
+}
+/* ----------|--main part css end--|-----------*/
+/* #139487 */
