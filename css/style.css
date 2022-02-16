@@ -1,0 +1,26 @@
+
+/* ----------|--google fonts  start--|-----------*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Noto+Serif&display=swap');
+/* ----------|--google fonts  end--|-----------*/
+
+/* ----------|--common css start--|-----------*/
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow-x: hidden;
+}
+.container{
+    max-width: 1200px;
+    margin: 0px auto;
+}
+input[type = number]{
+    appearance: textfield;
+}
+/* ----------|--common css end--|-----------*/
