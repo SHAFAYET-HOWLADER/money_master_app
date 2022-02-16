@@ -15,34 +15,42 @@
     <main>
         <section id="view_port">
             <div class="container">
-                <h1 style="text-align: center; padding: 15px 0px;">Treasure Saving</h1>
-                <div class="teasure_main">
+                <h1 style="font-size: 30px; text-align: center; padding-top: 10px; color: #139487;">Treasure Saving</h1>
+                <div class="treasure_main">
 
                     <div class="treasure_left">
                         <img src="images/moneyPic.jpg" alt="picture">
                     </div>
 
                     <div class="treasure_right">
-                        <h3>Income</h3>
-                        <label>Salary :</label>
-                        <input type="number">
+                        <h3>Income </h3>
+                        <div class="index_input">
+                            <label>Salary :</label>
+                            <input id="salary-input" type="number">
+                        </div>
                         <h3>Expenses </h3>
-                        <label>Food :</label>
-                        <input type="number">
-                        <br>
-                        <label>Rent :</label>
-                        <input type="number">
-                        <br>
-                        <label>Clothes :</label>
-                        <input type="number">
-                        <br>
-                        <button type="button">Calculate</button>
-                        <h3>Total Expenses : <span></span></h3>
-                        <h3>Balance : <span></span></h3>
+                        <div class="index_input">
+                            <label>Food :</label>
+                            <input type="number">
+                        </div>
 
-                        <label>Save : </label>
+                        <div class="index_input">
+                            <label>Rent :</label>
+                            <input type="number">
+                        </div>
+                           <div class="index_input">
+                            <label>Clothes :</label>
+                            <input type="number">
+                           </div>                
+                        <div class="calculate_btn">
+                            <button type="button">Calculate</button>
+                        </div>
+                        <h3>Total Expenses : <span></span></h3>
+                        <h3>Balance :<span></span></h3>
+
+                        <label>Save :</label>
                         <input type="number">
-                        <span>%</span>
+                        <span style="padding-right: 10px;">%</span>
                         <button type="button">Save</button>
                         <h3>Saving Amount : <span></span></h3>
                         <h3>Remaining Amount : <span></span></h3>
