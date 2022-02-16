@@ -1,16 +1,31 @@
-
 /*---------|--start responsive css--"----------*/
-@media (min-width: 992px) and (max-width: 1199px){
+@media (min-width: 1200px) and (max-width: 1400px) {}
 
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .treasure_main {
+        flex-direction: column;
+    }
 }
-@media (min-width: 768px) and (max-width: 991.98px){
 
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .treasure_main {
+        flex-direction: column;
+    }
 }
-@media (max-width: 575.98px){
 
+@media (max-width: 575.98px) {
+    .treasure_main {
+        flex-direction: column;
+    }
+    .treasure_left img {
+      margin: 0px auto;
+    }
+    .calculate_btn {
+        text-align: center;
+    }
+ 
 }
 
-@media (min-width: 576px) and (max-width: 767.98px){
-
-}
 /*---------|--end responsive css--"----------*/
