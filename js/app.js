@@ -51,7 +51,7 @@
         const salaryText = salary.value;
         const salaryTotal = parseFloat(salaryText);
         //saving amount
-        const savingAmount = salaryTotal / saveTextTotalValue;
+        const savingAmount = salaryTotal / 100 * saveTextValue ;
         //set saving amount innerText
         const savingAmountText = document.getElementById("saving-amount");
         const savingAmountTotal =  savingAmountText.innerText;
