@@ -32,6 +32,9 @@
       if(salaryText < 0 || foodText < 0 || rentText < 0 || clothesText < 0){
          console.log(alert("Please enter positive value"))
       }
+      else if(salaryText == "" || foodText == "" || rentText == "" || clothesText == ""){
+         console.log(alert("please enter a value"));
+      }
      }
         //get calculate button
         document.getElementById("calculate-btn").addEventListener("click",function(){
@@ -94,6 +97,9 @@
       }
       else if(saveTextValue < 0){
         console.log(alert("Please don't enter negative value"))
+      }
+      else if(saveTextValue == ""){
+        console.log(alert("please enter a number"));
       }
       else{
         const ss = document.getElementById("msg");
