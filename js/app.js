@@ -1,13 +1,10 @@
      // start of using javascript
      //update balance
      function updateBalance(){
-     //maintain error 
-
       //get salary-input
       const salary = document.getElementById("salary-input");
       const salaryText = salary.value;
       const salaryTotal = parseFloat(salaryText);
-    
       //get foot-input
       const food = document.getElementById("food");
       const foodText = food.value;
@@ -32,6 +29,9 @@
       const remainingBalanceText = remainingBalance.innerText;
       const remainingTotal = parseFloat(remainingBalanceText);
       remainingBalance.innerText = extraMoney;
+      if(salaryText < 0 || foodText < 0 || rentText < 0 || clothesText < 0){
+         console.log(alert("Please enter positive value"))
+      }
      }
         //get calculate button
         document.getElementById("calculate-btn").addEventListener("click",function(){
