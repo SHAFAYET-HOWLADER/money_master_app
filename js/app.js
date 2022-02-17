@@ -29,6 +29,7 @@
       const remainingBalanceText = remainingBalance.innerText;
       const remainingTotal = parseFloat(remainingBalanceText);
       remainingBalance.innerText = extraMoney;
+      //input validation
       const incomeMsg = document.getElementById("income-msg");
       const foodMsg = document.getElementById("food-msg");
       const rentMsg = document.getElementById("rent-msg");
@@ -70,7 +71,6 @@
         const savingAmountTotal =  savingAmountText.innerText;
         const savingAmountTotalValue = parseFloat(savingAmountTotal);
         savingAmountText.innerText = savingAmount;
-      
       //re-use code calculate button
       //   //get foot-input
       const food = document.getElementById("food");
@@ -116,8 +116,8 @@
         console.log(alert("please enter a number"));
       }
       else{
-        const ss = document.getElementById("msg");
-        ss.style.display = "none"
+        const msg = document.getElementById("msg");
+        msg.style.display = "none"
       }
 })
 // end of using javascript
