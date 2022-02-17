@@ -92,6 +92,9 @@
         const ss = document.getElementById("msg");
         ss.style.display = "block"
       }
+      else if(saveTextValue < 0){
+        console.log(alert("Please don't enter negative value"))
+      }
       else{
         const ss = document.getElementById("msg");
         ss.style.display = "none"
