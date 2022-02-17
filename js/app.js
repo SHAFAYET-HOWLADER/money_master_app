@@ -29,8 +29,21 @@
       const remainingBalanceText = remainingBalance.innerText;
       const remainingTotal = parseFloat(remainingBalanceText);
       remainingBalance.innerText = extraMoney;
-      if(salaryText < 0 || foodText < 0 || rentText < 0 || clothesText < 0){
-         console.log(alert("Please enter positive value"))
+      const incomeMsg = document.getElementById("income-msg");
+      const foodMsg = document.getElementById("food-msg");
+      const rentMsg = document.getElementById("rent-msg");
+      const clothesMsg = document.getElementById("clothes-msg");
+      if(salaryText < 0 ){
+         incomeMsg.style.display = "block";
+      }
+      else if(foodText < 0 ){
+         foodMsg.style.display = "block";
+      }
+      else if(rentText < 0 ){
+         rentMsg.style.display = "block";
+      }
+      else if(clothesText < 0 ){
+        clothesMsg.style.display = "block";
       }
       else if(salaryText == "" || foodText == "" || rentText == "" || clothesText == ""){
          console.log(alert("please enter a value"));
@@ -92,8 +105,9 @@
       const remainingAmountTextValueTotal = parseFloat(remainingAmountTextValue);
       remainingAmountText.innerText = finalRemainingAmount;
       if(savingAmountTotalValue > extraMoney){
-        const ss = document.getElementById("msg");
-        ss.style.display = "block"
+        const msg = document.getElementById("msg");
+        console.log(alert("warning ! You haven't enough money to saving "))
+        msg.style.display = "block"
       }
       else if(saveTextValue < 0){
         console.log(alert("Please don't enter negative value"))

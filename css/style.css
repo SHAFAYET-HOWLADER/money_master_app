@@ -92,12 +92,18 @@ input[type=number] {
     align-items: center;
 }
 
-#msg {
+#msg,
+#income-msg,
+#food-msg,
+#rent-msg,
+#clothes-msg {
     display: none;
+    margin-bottom: 5px;
     text-align: center;
     margin-top: 20px;
     color: #ff0037ed;
     font-family: inherit;
 }
+
 
 /* ----------|--main part css end--|-----------*/
