@@ -58,7 +58,6 @@ document.getElementById("calculate-btn").addEventListener("click",function(){
 
 
 //re-use calculate button
-
   //get foot-input
     const food = document.getElementById("food");
     const foodText = food.value;

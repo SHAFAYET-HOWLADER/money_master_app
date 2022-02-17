@@ -8,24 +8,12 @@
     padding: 0px;
     outline: 0px;
 }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: 0px;
-    padding: 0px;
-}
-
 body {
     overflow-x: hidden;
     font-family: 'Montserrat', sans-serif;
     user-select: none;
     font-weight: 700;
 }
-
 .container {
     max-width: 1200px;
     margin: 0px auto;
@@ -33,18 +21,15 @@ body {
     border-radius: 5px;
     padding: 20px;
 }
-
 input[type=number] {
     appearance: hidden;
 }
-
 /* ----------|--common css end--|-----------*/
 
 /* ----------|--main part css start--|-----------*/
 #view_port {
     padding: 10px 0px;
 }
-
 .treasure_main {
     display: flex;
     justify-content: space-evenly;
@@ -52,23 +37,19 @@ input[type=number] {
     padding: 10px 0px;
     border-radius: 5px;
 }
-
 .treasure_left img {
     border-radius: 5px;
     width: 100%;
     object-fit: cover;
 }
-
 .treasure_right h3 {
     text-align: center;
     font-weight: 700;
     padding: 5px 0px;
 }
-
 .treasure_right label {
     font-family: inherit;
 }
-
 .treasure_right input {
     margin: 5px 10px;
     padding: 8px;
@@ -78,7 +59,6 @@ input[type=number] {
     font-size: 18px;
     font-family: inherit;
 }
-
 .treasure_right button {
     padding: 8px 18px;
     background-color: #139487;
@@ -90,16 +70,13 @@ input[type=number] {
     cursor: pointer;
     font-family: inherit;
 }
-
 .calculate_btn {
     text-align: center;
     margin: 10px 0px;
 }
-
 .index_input {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 /* ----------|--main part css end--|-----------*/
